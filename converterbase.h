@@ -16,10 +16,6 @@ class ConverterBase
     ConverterBase(int numero, int base);
     QString Conversores();
 
-    int getNumero() const;
-    void setNumero(int newNumero);
-    int getBase() const;
-    void setBase(const int &newBase);
 };
 }
 #endif

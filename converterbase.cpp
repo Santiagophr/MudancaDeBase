@@ -1,26 +1,6 @@
 #include "converterbase.h"
 namespace ped{
 
-int ConverterBase::getNumero() const
-{
-    return numero;
-}
-
-void ConverterBase::setNumero(int newNumero)
-{
-    numero = newNumero;
-}
-
-int ConverterBase::getBase() const
-{
-    return base;
-}
-
-void ConverterBase::setBase(const int &newBase)
-{
-    base = newBase;
-}
-
 ConverterBase::ConverterBase(int numero, int base):
 
     numero(numero),

@@ -5,13 +5,13 @@ tamanho(0) ,
 array(0),
 topo(-1)
 {
-  if(tamanho<=0) throw "Erro, tamanho nao pode ser menor que 0";
+  if(tamanho<=0) throw QString("Erro, tamanho nao pode ser menor que 0");
   try{
     array = new int[tamanho];
     this->tamanho = tamanho;
   }
   catch(std::bad_alloc &erro){
-      throw "A pilha nao pode ser criada";
+      throw QString ("A pilha nao pode ser criada");
   }
 }
 Pilha::~Pilha(){
